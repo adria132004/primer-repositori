@@ -1,9 +1,14 @@
 
 public static void main (String[]arg){
-    int numero1 = 5;
-    int numero2 = 7;
-    int numero3 = numero1+numero2;
+    public static void main (String[]arg){
 
-    System.out.println(numero3);
+        System.out.println(suma(6,4));
+
+    }
+
+    public static int suma (int a, int b){
+        int operacio = a+b;
+        return operacio;
+    }
 
 }
